@@ -21,5 +21,6 @@ public class Q4 {
         a = a^b;
 
         System.out.println("The numbers after swapping without a temp variable: " + a + " and " + b);
+        System.out.println("------------------0------------------");
     }
 }
