@@ -1,3 +1,4 @@
+
 /*
 1. Write a Java program to print addition and subtraction of two
 integer numbers.
@@ -9,11 +10,11 @@ print it.
 with using temporary variable and without using temporary
 variable
 */
-
 import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter the question number: ");
         int a = input.nextInt();
 
         switch (a) {
