@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Q1 {
     static void getAnswer() {
         Scanner input = new Scanner(System.in);
+
         System.out.println("Enter score: ");
         double score = input.nextDouble();
 
