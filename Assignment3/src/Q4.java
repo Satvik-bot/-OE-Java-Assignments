@@ -1,13 +1,24 @@
+import java.util.Scanner;
+
 public class Q4 {
     static void getAnswer() {
-        double Population = 80000;
+        Scanner s = new Scanner(System.in);
 
-        int years = 0;
-        while (Population <= 150000) {
-            Population = 1.05 * Population;
-            years = years + 1;
+        System.out.println("Enter the number: ");
+        int n = s.nextInt();
+
+        System.out.print("Hailstone Sequence for " + n + " is: ");
+
+        while(n!=1)
+        {
+            if(n%2==0){
+                n=n/2;
+                System.out.print(n+" ");
+            }
+            else if (n%2!=0){
+                n=(n*3)+1;
+                System.out.print(n+" ");
+            }
         }
-
-        System.out.println("Number of years: " + years);
     }
 }

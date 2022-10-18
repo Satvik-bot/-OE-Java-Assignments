@@ -27,10 +27,6 @@ public class Main {
                 System.out.println("The Answer is: ");
                 Q5.getAnswer();
                 break;
-            case 6:
-                System.out.println("The Answer is: ");
-                Q6.getAnswer();
-                break;
             default:
                 System.out.println("Request Denied. Type a number in the range 1-6.");
                 break;
