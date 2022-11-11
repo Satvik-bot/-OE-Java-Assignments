@@ -2,7 +2,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Q5 {
-
         static void getAnswer(){
             // Take the strings input word1 and word2 to be compared
             Scanner s = new Scanner(System.in);
