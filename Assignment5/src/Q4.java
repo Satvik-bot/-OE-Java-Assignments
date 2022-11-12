@@ -7,8 +7,7 @@ class myclass {
         a++;
         System.out.println(a);
     }
-    public static void main(String[]
-                                    args)
+    public static void main(String[] args)
     {
         myclass obj = new myclass();
         myclass obj2 = new myclass();
@@ -22,5 +21,6 @@ public class Q4{
         System.out.println("From the current code, we receive the following errors:");
         System.out.println("Error at line 8: java: ';' expected");
         System.out.println("Upon correcting Void to void in line 6 and substituted the : with a ; in line 8, the result is: ");
+        System.out.println("24");
     }
 }
